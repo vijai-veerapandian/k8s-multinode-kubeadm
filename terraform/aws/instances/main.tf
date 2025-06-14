@@ -8,7 +8,7 @@ module "ec2_instance" {
   instance_name  = "k8s-node"
   ami_id         = "ami-00c257e12d6828491"
   instance_type  = "t2.medium"
-  key_name       = "techiescamp"
+  key_name       = "k8s-homelab"
   subnet_ids     = ["subnet-0f92233e44d3044ef", "subnet-007ab506046047319", "subnet-006538decc4e58a2e"]
   instance_count = 3
 
